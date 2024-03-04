@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clans.css">
+    <title>Todo App</title>
+</head>
+<body>
+
+        <!-- NAV BAR -->
+        <nav>
+            <a href="#" class="logo">Todo App</a>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Maps</a></li>
+                <li><a href="#">Donations</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- TODO SECTION -->
+        <div class="container">
+            <h1>Todos</h1>
+            <div class="input-container">
+                <input type="text" id="todoInput" placeholder="Enter Your Todo">
+                <input type="datetime-local" id="dueDate" placeholder="Select due date and time">
+                <button onclick="addTodo()">Add Todo</button>
+            </div>
+            <ul id="todoList"></ul>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <ul>
+                <li><a href="#">ToDo&COPY; 2023</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Donations</a></li>
+                <li><a href="#">Reddit</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </footer>
+    
+    <script src="clans.js"></script>
+</body>
+</html>
